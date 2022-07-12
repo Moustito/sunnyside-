@@ -1,0 +1,108 @@
+body {
+    width: 1440px;
+    background-color: grey;
+}
+
+header {
+    position: absolute;
+    width: 1440px;
+    height: 800px;
+    left: 0px;
+    top: 0px;
+    
+    .top {
+        position: absolute;
+        width: 1352px;
+        height: 56px;
+        left: 40px;
+        top: 34px;
+        .logo{
+            position: absolute;
+            left: 0%;
+            right: 87.43%;
+            top: 21.43%;
+            bottom: 19.64%;
+        }
+        .nav{
+            text-decoration: none;
+            font-family: 'Barlow';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 25px;
+
+            letter-spacing: -0.128571px;
+
+            color: #FFFFFF;
+        }
+        .about {
+            position: absolute;
+            height: 25px;
+            left: 65.46%;
+            right: 30.99%;
+            top: calc(50% - 25px/2 + 0.5px);
+        }
+        .services {
+            position: absolute;
+            height: 25px;
+            left: 72.49%;
+            right: 22.19%;
+            top: calc(50% - 25px/2 + 0.5px);
+        }
+        .projects {
+            position: absolute;
+            height: 25px;
+            left: 81.29%;
+            right: 13.83%;
+            top: calc(50% - 25px/2 + 0.5px);
+        }
+        .contact {
+            position: absolute;
+            height: 25px;
+            top: 0%;
+            left: 90%;
+            right: 0%;
+            text-align: center;
+            
+            color: black;
+            background: #FFFFFF;
+            width: 140px;
+            height: 56px;
+            border-radius: 28px;
+
+            text-transform: uppercase;
+        }
+    }
+
+
+
+    .header_image {
+        width: 100%;
+        height: 800px;
+    }
+
+    h1 {
+        position: absolute;
+        width: 750px;
+        height: 69px;
+        left: 344.5px;
+        top: 195px;
+
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 56px;
+        line-height: 69px;
+
+        text-align: center;
+        letter-spacing: 8.75px;
+        text-transform: uppercase;
+        color: white;
+    }
+    .arrow {
+        position: absolute;
+        height: 100px;
+        left: 719.5px;
+        top: 360.54px;
+    }
+}
