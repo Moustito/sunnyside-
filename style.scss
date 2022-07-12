@@ -1,29 +1,30 @@
 body {
     width: 1440px;
-    background-color: grey;
+    background-color: white;
 }
 
 header {
-    position: absolute;
     width: 1440px;
     height: 800px;
     left: 0px;
     top: 0px;
-    
+
     .top {
         position: absolute;
         width: 1352px;
         height: 56px;
         left: 40px;
         top: 34px;
-        .logo{
+
+        .logo {
             position: absolute;
             left: 0%;
             right: 87.43%;
             top: 21.43%;
             bottom: 19.64%;
         }
-        .nav{
+
+        .nav {
             text-decoration: none;
             font-family: 'Barlow';
             font-style: normal;
@@ -35,6 +36,7 @@ header {
 
             color: #FFFFFF;
         }
+
         .about {
             position: absolute;
             height: 25px;
@@ -42,6 +44,7 @@ header {
             right: 30.99%;
             top: calc(50% - 25px/2 + 0.5px);
         }
+
         .services {
             position: absolute;
             height: 25px;
@@ -49,6 +52,7 @@ header {
             right: 22.19%;
             top: calc(50% - 25px/2 + 0.5px);
         }
+
         .projects {
             position: absolute;
             height: 25px;
@@ -56,6 +60,7 @@ header {
             right: 13.83%;
             top: calc(50% - 25px/2 + 0.5px);
         }
+
         .contact {
             position: absolute;
             height: 25px;
@@ -63,7 +68,7 @@ header {
             left: 90%;
             right: 0%;
             text-align: center;
-            
+
             color: black;
             background: #FFFFFF;
             width: 140px;
@@ -73,8 +78,6 @@ header {
             text-transform: uppercase;
         }
     }
-
-
 
     .header_image {
         width: 100%;
@@ -99,10 +102,237 @@ header {
         text-transform: uppercase;
         color: white;
     }
+
     .arrow {
         position: absolute;
         height: 100px;
         left: 719.5px;
         top: 360.54px;
     }
+}
+
+// MAIN
+main {
+    .first-line {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 600px;
+
+        background-color: white;
+    }
+
+    .box {
+        height: 100%;
+        width: 50%;
+
+        .text {
+            padding: 157px 165px 0 110px;
+
+            h1 {
+                font-family: Fraunces;
+                font-size: 40px;
+                font-weight: 900;
+                line-height: 49px;
+                letter-spacing: -0.2857142984867096px;
+                text-align: left;
+                color: #24303E;
+            }
+
+            p {
+                margin-top: 32px;
+                margin-bottom: 40px;
+
+                font-family: Barlow;
+                font-size: 18px;
+                font-weight: 600;
+                line-height: 30px;
+                letter-spacing: -0.12857143580913544px;
+                text-align: left;
+                color: #808397;
+            }
+
+            a {
+                text-decoration: none;
+                font-family: Fraunces 9pt Soft;
+                font-size: 15px;
+                font-weight: 900;
+                line-height: 25px;
+                letter-spacing: 1px;
+                text-align: left;
+                color: #24303E;
+
+                padding-left: 10px;
+
+                letter-spacing: 1px;
+                text-transform: uppercase;
+            }
+
+            /*
+            a:after {
+                content: "";
+                position: absolute;
+                left: 7.5%;
+                right: 0%;
+                top: 72%;
+                bottom: 26%;
+
+                width: 9%;
+
+                background: #FAD400;
+                mix-blend-mode: normal;
+                opacity: 0.25;
+                border-radius: 28px; 
+            
+            }*/
+        }
+    }
+
+    .second-line {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 600px;
+
+        background-color: white;
+
+        .box {
+            background-color: aqua;
+            width: 50%;
+            background-image: url("assets/photos/image-graphic-design.jpg");
+
+            h1 {
+                margin: 398px 0 27px 0;
+
+                font-family: 'Fraunces 9pt Soft';
+                font-style: normal;
+                font-weight: 900;
+                font-size: 28px;
+                line-height: 35px;
+
+                text-align: center;
+                letter-spacing: -0.2px;
+
+                color: #24554A;
+            }
+
+            p {
+                margin: 0 0 0 191px;
+                width: 339px;
+
+                font-family: 'Barlow';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 27px;
+
+                text-align: center;
+                letter-spacing: -0.114286px;
+
+                color: #3E7467;
+            }
+        }
+
+        .box:nth-child(2) {
+            background-image: url("assets/photos/image-photography.jpg");
+        }
+    }
+
+    .third-line {
+        .third-line--client {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+
+            h1 {
+                text-align: center;
+                width: 100%;
+                margin: 160px 0 81px 0;
+
+                font-family: 'Fraunces 9pt Soft';
+                font-style: normal;
+                font-weight: 900;
+                font-size: 20px;
+                line-height: 25px;
+                /* identical to box height */
+
+                text-align: center;
+                letter-spacing: 5px;
+
+                color: #A7AAAD;
+            }
+
+            .client {
+                text-align: center;
+                width: 350px;
+                margin: 0 0 0 0;
+
+                img {
+                    border-radius: 50%;
+                }
+
+                p:nth-child(2) {
+                    font-family: 'Barlow';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 18px;
+                    line-height: 32px;
+
+                    margin: 58px 0 69px 0;
+
+                    text-align: center;
+                    letter-spacing: -0.128571px;
+
+                    color: #5B636D;
+                }
+
+                h3 {
+                    font-family: 'Fraunces 9pt Soft';
+                    font-style: normal;
+                    font-weight: 900;
+                    font-size: 18px;
+                    line-height: 22px;
+                    text-align: center;
+                    letter-spacing: -0.128571px;
+
+                    margin: 0 0 0 0;
+
+                    color: #24303E;
+                }
+
+                p:nth-child(4) {
+                    font-family: 'Barlow';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 25px;
+                    
+                    margin: 9px 0 160px 0;
+
+                    text-align: center;
+                    letter-spacing: -0.1px;
+
+                    color: #A7AAAD;
+                }
+            }
+        }
+    }
+    .panorama {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        img {
+            width: 25%;
+        }
+    }
+    
+}
+.footer {
+    background-color: #90D4C6;
+    width: 100%;
+    height: 350px;
 }
