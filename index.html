@@ -5,7 +5,9 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Fraunces&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,900&display=swap"
+        rel="stylesheet">
     <title>Sunyside Agency</title>
 </head>
 
@@ -13,13 +15,14 @@
     <header>
         <section class="top">
             <img class="logo" src="assets/logo.svg" alt="">
-
-            <a class="nav about" href="">About</a>
-            <a class="nav services" href="">Services</a>
-            <a class="nav projects" href="">Projects</a>
-            <a class="nav contact" href="">Contact</a>
+            <nav class="menu">
+                <a class="menu menu-item" href="">About</a>
+                <a class="menu menu-item" href="">Services</a>
+                <a class="menu menu-item" href="">Projects</a>
+                <button class="menu menu-item" href="">Contact</button>
+            </nav>
         </section>
-        <img class="header_image" src="assets/photos/image-header.jpg" alt="">
+
         <h1>We are creatives</h1>
         <img class="arrow" src="assets/icons/icon-arrow-down.svg" alt="">
     </header>
@@ -31,7 +34,10 @@
                     <p>We are a full-service creative agency specializing in helping brands grow fast. Engage your
                         clients
                         through compelling visuals that do most of the marketing for you.</p>
-                    <a href="">Learn more</a>
+                    <div class="text__link">
+                        <a href="">Learn more</a>
+                        <div class="link-decoration__yellow"></div>
+                    </div>
                 </article>
             </section>
             <img class="box box-image" src="assets/photos/image-transform.jpg" alt="">
@@ -43,7 +49,10 @@
                     <h1>Stand out to the right audience</h1>
                     <p>Using a collaborative formula of designers, researchers, photographers, videographers, and
                         copywriters, we’ll build and extend your brand in digital places. </p>
-                    <a href="">Learn more</a>
+                    <div class="text__link">
+                        <a href="">Learn more</a>
+                        <div class="link-decoration__orange"></div>
+                    </div>
                 </article>
             </section>
         </div>
@@ -95,14 +104,20 @@
         </section>
     </main>
     <footer>
-        <img src="assets/logo.svg" alt="">
-        <nav></nav>
-        <div>
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-        </div>
+        <section class="foot">
+            <img src="assets/logo.svg" alt="">
+            <nav class="foot-menu">
+                <a class="foot-menu__item" href="">About</a>
+                <a class="foot-menu__item" href="">Services</a>
+                <a class="foot-menu__item" href="">Projects</a>
+            </nav>
+            <div class="reseaux">
+                <img class="face" src="assets/icons/icon-facebook.svg" alt="">
+                <img class="insta" src="assets/icons/icon-instagram.svg" alt="">
+                <img class="twit" src="assets/icons/icon-twitter.svg" alt="">
+                <img class="pin" src="assets/icons/icon-pinterest.svg" alt="">
+            </div>
+        </section>
     </footer>
 </body>
 
