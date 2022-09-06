@@ -7,6 +7,6 @@
 Réalisation du Challenge Sunnyside Landing-page. Premier "gros" projet lors de ma formation Chez Becode. Le but était d'utiliser l'ensemble de nos compétences en html css.
 
 Lien : [Consignes Becode](https://github.com/becodeorg/CRL-Wilson-1/tree/master/1.TRAIL/2.The-Hill/Projects/2.Weather-app)
-       [Challenge](https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef)
+       / [Challenge](https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef)
   
 Lien vers le site : [Sunnyside Agency](https://moustito.github.io/sunnyside-agency/ "Sunnyside Agency")
